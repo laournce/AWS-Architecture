@@ -4,7 +4,7 @@ Amazon Web Services (AWS) provides a vast and scalable cloud platform that enabl
 
 ## Regions
 
-![Alt text for your image](https://github.com/laournce/AWS-Architecture/blob/main/image4.png))
+![Region](https://github.com/laournce/AWS-Architecture/blob/main/image4.png)
 
 A **Region** is a geographically distinct area where AWS operates data centers. AWS offers multiple Regions around the world, and each Region is isolated from others to ensure data sovereignty and compliance. For example, AWS has Regions in North America, Europe, Asia-Pacific, and other continents.
 
@@ -20,6 +20,8 @@ When deploying services on AWS, users choose which Region to deploy their resour
 
 ## Availability Zones (AZs)
 
+![AZ](https://github.com/laournce/AWS-Architecture/blob/main/image5.png)
+
 Each Region consists of multiple **Availability Zones (AZs)**. An Availability Zone is essentially a cluster of one or more data centers equipped with independent power, cooling, and networking.
 
 ### Purpose
@@ -34,6 +36,8 @@ When building highly available applications, it's recommended to distribute work
 - **eu-west-1c (Ireland)**: The AWS Region eu-west-1 is based in Ireland, and eu-west-1c is one of its Availability Zones.
 
 ## Core AWS Services
+
+![Services](https://github.com/laournce/AWS-Architecture/blob/main/image2.png)
 
 ### Compute
 Compute services provide the backbone for processing power on AWS. These services allow you to run applications, perform calculations, and host servers in a scalable environment.
@@ -90,6 +94,9 @@ Content delivery ensures fast and secure delivery of data, applications, and vid
 - **AWS Global Accelerator**: Improves the availability and performance of your global applications by routing traffic to the best-performing AWS regions.
 
 ### Security
+
+![Security](https://github.com/laournce/AWS-Architecture/blob/main/image1.png)
+
 AWS provides security services that help protect data, applications, and the infrastructure.
 
 #### Importance to AWS Architecture
@@ -123,6 +130,9 @@ Elasticity ensures that applications can automatically adjust to fluctuating dem
 - **AWS Elastic Beanstalk**: Automatically scales your web application based on traffic demands.
 
 ### Serverless Architecture
+
+![Serverless](https://github.com/laournce/AWS-Architecture/blob/main/image3.png)
+
 Serverless architecture allows developers to build and run applications without managing the underlying infrastructure.
 
 #### Importance to AWS Architecture
