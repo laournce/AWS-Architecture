@@ -4,7 +4,7 @@ Amazon Web Services (AWS) provides a vast and scalable cloud platform that enabl
 
 ## Regions
 
-![Image Description]([https://github.com/username/repository/blob/main/images/my-image.jpg](https://github.com/laournce/AWS-Architecture/blob/main/image4.png))
+![Alt text for your image](https://github.com/laournce/AWS-Architecture/blob/main/image4.png))
 
 A **Region** is a geographically distinct area where AWS operates data centers. AWS offers multiple Regions around the world, and each Region is isolated from others to ensure data sovereignty and compliance. For example, AWS has Regions in North America, Europe, Asia-Pacific, and other continents.
 
